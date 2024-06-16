@@ -5,7 +5,7 @@ export default function Curiosidades() {
       <ul>
         <li>Squirtle é um dos Pokémon mais populares e adoráveis.</li>
         <li>
-          Seu nome deriva das palavras "squirrel" (esquilo) e "turtle"
+          Seu nome deriva das palavras &quot;squirrel&quot; (esquilo) e &quot;turtle&quot;
           (tartaruga).
         </li>
         <li>
