@@ -1,10 +1,11 @@
+import Link from "next/link";
 
 export default function Evolucoes() {
 
     return (
       <ul>
         <li>
-          <a href="./pages/pokemon/index.html?name=squirtle">
+        <Link href={{ pathname: '/evolucoes', query: { evolucao: 'squirtle' }}}>
             <figure>
               <img
                 src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png"
@@ -12,11 +13,11 @@ export default function Evolucoes() {
               />
               <figcaption>1. Squirtle</figcaption>
             </figure>
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="./pages/pokemon/index.html?name=wartortle">
+          <Link href={{ pathname: '/evolucoes', query: { evolucao: 'wartortle' }}}>
             <figure>
               <img
                 src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png"
@@ -24,11 +25,11 @@ export default function Evolucoes() {
               />
               <figcaption>2. Wartortle</figcaption>
             </figure>
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="./pages/pokemon/index.html?name=blastoise">
+          <Link href={{ pathname: '/evolucoes', query: { evolucao: 'blastoise' }}}>
             <figure>
               <img
                 src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png"
@@ -36,7 +37,7 @@ export default function Evolucoes() {
               />
               <figcaption>3. Blastoise</figcaption>
             </figure>
-          </a>
+          </Link>
         </li>
       </ul>
     );
