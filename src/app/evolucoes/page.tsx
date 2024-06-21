@@ -22,7 +22,7 @@ export default function Evolucoes() {
   if (data) {
     return (
       <CardSection titulo={ nameEvolucao }>
-        <img className={ styles.img } src={data.sprites.front_default}></img>
+        <img className={ styles.img } src={(data as any).sprites.front_default}></img>
       </CardSection>
     );
   }
